@@ -1,7 +1,9 @@
 import java.util.Scanner;
 class student{
     String name;
-    int 
+    int regno;
+    String name;
+
 }
 
 public class StudentResult {
