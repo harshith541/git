@@ -1,5 +1,5 @@
-puclic class welcome{
+ class welcome{
     public static void main(String[] args){
-        System.ou
+        System.out.println("Welcome to java");
     }
 }
