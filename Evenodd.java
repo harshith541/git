@@ -3,7 +3,7 @@ class Evenodd{
         int  num=6;
         if(num%2==0){
             System.out.println("Even number");
-        }else{
+        } else{
              System.out.println("Odd numbers");
         }
     }
