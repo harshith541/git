@@ -9,8 +9,8 @@ class Animal{
         System.out.println("Type:"+type);
      }
      public static void main(String[] args){
-        Animal sc=new Animal();
-        sc.name="Tiger";
+         Animal sc=new Animal();
+          sc.name="Tiger";
         sc.age=10;
         sc.type="wild";
         sc.Displayfun();
