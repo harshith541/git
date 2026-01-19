@@ -1,5 +1,5 @@
 #include<iostram>
 int main(){
-      cout<<"Hello world";
-      return 0;
+       cout<<"Hello world";
+       return 0;
 }
