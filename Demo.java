@@ -6,7 +6,7 @@ class Demo{
           int num1=sc.nextInt();
             System.out.println("Enter 2nd number:");    
          int num2=sc.nextInt();
-           int sum=num1+num2;
+            int sum=num1+num2;
          System.out.println("Sum is "+sum);
     }
 }
