@@ -8,6 +8,6 @@ public class BirthdayWish {
         String name = sc.nextLine();
 
         System.out.println(" Happy Birthday " + name + "");
-        System.out.println("Wishing you a wonderful year ahead!");
+         System.out.println("Wishing you a wonderful year ahead!");
     }
 }
