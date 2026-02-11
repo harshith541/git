@@ -69,7 +69,7 @@ public class parta6
                 System.out.println("Enter ReleaseYear:");
                 int releaseYear=sc.nextInt();
                 Movie m=new Movie(title, duration, genre, language, director, releaseYear);
-                movies.add(m);
+                 movies.add(m);
                 S ystem.out.println("Movie Added Sucessfully:");
                 break;
             case 2:
