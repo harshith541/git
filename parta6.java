@@ -78,7 +78,7 @@ public class parta6
                     System.out.println("No movie");
                 }else
                 {
-                    System.out.println("show movies");
+                     System.out.println("show movies");
                     for(Movie movie:movies){
                         movie.displayShow();
                     }
