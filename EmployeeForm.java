@@ -3,8 +3,8 @@ import java.awt.*;
 import java.awt.event.*; 
 public class EmployeeForm extends JFrame implements ActionListener 
 { 
-JLabel l1,l2,l3,l4,l5,l6; 
-JTextField tfld,tfname,tfage; 
+ JLabel l1,l2,l3,l4,l5,l6; 
+ JTextField tfld,tfname,tfage; 
 JRadioButton rbmale,rbfemale; 
 JComboBox<String>cbdept; 
 JCheckBox cbjava,cbpython,cbcpp,cbSQL; 
