@@ -7,7 +7,7 @@ public class EmployeeForm extends JFrame implements ActionListener
  JTextField tfld,tfname,tfage; 
 cJRadioButton rbmale,rbfemale; 
  JComboBox<String>cbdept; 
-JCheckBox cbjava,cbpython,cbcpp,cbSQL; 
+ JCheckBox cbjava,cbpython,cbcpp,cbSQL; 
 JButton btnsubmit,btnreset; 
 ButtonGroup bg; 
 EmployeeForm() 
