@@ -3,10 +3,10 @@ interface Shapes
 {
     void area();
 }
-class circle implements Shapes
+class Circle implements Shapes
 {
     double r;
-    circle(double r)
+    Circle(double r)
     {
         this.r=r;
     }
@@ -57,7 +57,31 @@ public class partc1 {
             case 1:
                 System.out.println("Enter the readius:");
                 double r=sc.nextDouble();
+                shape=new Circle(r);
+                shape.area();
+                break;
+            case 2:
+                System.out.println("Enter the readius:");
                 
+                double s=sc.nextDouble();
+                shape=new square(s);
+                shape.area();
+                break;
+            case 3:
+                System.out.println("Enter the length");
+                double l=sc.nextDouble();
+                System.out.println("Enter the breath");
+                double b=sc.nextDouble();
+                shape=new rectangular(l,b);
+                shape.area();
+                break;
+            case 4:
+                System.out.println("Exiting program");
+                sc.close();
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Wrong Choice!!!");               
         }
     }
 }

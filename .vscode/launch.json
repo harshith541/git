@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "partc1",
+      "request": "launch",
+      "mainClass": "partc1",
+      "projectName": "Git_b33a2a88"
+    },
+    {
+      "type": "java",
       "name": "parta6",
       "request": "launch",
       "mainClass": "parta6",
