@@ -18,7 +18,7 @@ class Circle implements Shapes
 class square implements Shapes
 {
     double s;
-    square(double r)
+    square(double s)
     {
         this.s=s;
     }
@@ -40,10 +40,12 @@ class rectangular implements Shapes
         System.out.println("Area of the rectangular:"+(l*b));
     }
 }
-public class partc1 {
-    public static void main(String args[])
+public class partc1{
+     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
+        while(true)
+        {
         System.out.println("---AREA CALCULATOR MENU----");
         System.out.println("1.circle");
         System.out.println("2.square");
@@ -62,7 +64,6 @@ public class partc1 {
                 break;
             case 2:
                 System.out.println("Enter the readius:");
-                
                 double s=sc.nextDouble();
                 shape=new square(s);
                 shape.area();
@@ -84,4 +85,5 @@ public class partc1 {
                 System.out.println("Wrong Choice!!!");               
         }
     }
+}
 }
