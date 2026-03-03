@@ -7,7 +7,7 @@ public class BirthdayWish {
          System.out.print("Enter the name: ");
          String name = sc.nextLine();
 
-        System.out.println(" Happy Birthday " + name + "");
+         System.out.println(" Happy Birthday " + name + "");
          System.out.println("Wishing you a wonderful year ahead!");
     }
 }
