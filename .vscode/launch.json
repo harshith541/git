@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Animal",
+      "request": "launch",
+      "mainClass": "Animal",
+      "projectName": "Git_b33a2a88"
+    },
+    {
+      "type": "java",
       "name": "partc1",
       "request": "launch",
       "mainClass": "partc1",
