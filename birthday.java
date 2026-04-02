@@ -4,6 +4,6 @@ public class birthday{
         Scanner sc=new Scanner(System.in);
           System.out.println("Enter Your Name:");
          String name =sc.nextLine();
-        System.out.println("Happy Birthday" + name + "");
+         System.out.println("Happy Birthday" + name + "");
     }
 }
